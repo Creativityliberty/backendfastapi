@@ -14,13 +14,18 @@
   ],
   "env": {
     "ENVIRONMENT": "production",
-    "POSTGRES_SERVER": "@postgres_server",
-    "POSTGRES_PORT": "@postgres_port",
-    "POSTGRES_DB": "@postgres_db",
-    "POSTGRES_USER": "@postgres_user",
+    "POSTGRES_SERVER": "@PGHOST",
+    "POSTGRES_PORT": "@PGPORT",
+    "POSTGRES_DB": "@PGDATABASE",
+    "POSTGRES_USER": "@PGUSER",
     "POSTGRES_PASSWORD": "@postgres_password",
-    "SECRET_KEY": "@secret_key",
-    "FIRST_SUPERUSER": "@first_superuser",
-    "FIRST_SUPERUSER_PASSWORD": "@first_superuser_password"
+    "SECRET_KEY": "@SECRET_KEY",
+    "FIRST_SUPERUSER": "@FIRST_SUPERUSER",
+    "FIRST_SUPERUSER_PASSWORD": "@FIRST_SUPERUSER_PASSWORD",
+    "AWS_ACCOUNT_ID": "@AWS_ACCOUNT_ID",
+    "AWS_REGION": "@AWS_REGION",
+    "AWS_RESOURCE_ARN": "@AWS_RESOURCE_ARN",
+    "AWS_ROLE_ARN": "@AWS_ROLE_ARN",
+    "PGSSLMODE": "@PGSSLMODE"
   }
 }
